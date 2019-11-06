@@ -1,0 +1,19 @@
+#borda{
+	border-style: solid;
+    width: 50%;
+    border-width: 12px;
+    border-top: dotted violet 12px;
+    border-left: solid yellow;
+    border-right: dashed grey 8px;
+    border-bottom: groove blue 12px;
+	text-align:center;
+}
+
+p {
+  margin:30px;
+  border: 5px solid black;
+  outline: 5px solid red;
+  outline-offset: 15px;
+  text-align: center;
+  width:50%;
+}

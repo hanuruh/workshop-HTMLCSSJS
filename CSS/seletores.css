@@ -1,0 +1,27 @@
+	.texto-vermelho{
+		color:red;
+	}
+			
+	.texto-azul{
+		color:blue;
+	}
+			
+	.texto-vermelho h2{
+		color:yellow;
+	}
+			
+	#titulo{
+		text-align:center;
+	}
+	
+	ul{
+		font-size:40px;
+	}
+	
+	h1,h2,.texto-azul{
+		font-size:30px;
+	}
+	
+	*{
+		font-family:Helvetica, sans-serif;
+	}

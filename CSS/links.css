@@ -1,0 +1,45 @@
+#personalizado{
+	font-size:20px;
+}
+
+#personalizado:link{
+	text-decoration:none;
+	color:green;
+}
+
+#personalizado:visited{
+	text-decoration:none;
+	color:orange;
+}
+
+#personalizado:hover{
+	text-decoration:underline;
+	font-size:40px;
+	color:black;
+}
+
+#personalizado:active{
+	text-decoration:underline;
+	color:yellow;
+}
+
+#normal{
+	font-size:20px;
+}
+
+#link-botao:link, #link-botao:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display:inline-block;
+}
+
+#link-botao:hover, #link-botao:active {
+  background-color: red;
+}
+
+li {
+	display:inline;
+}

@@ -1,0 +1,29 @@
+#overline{
+	text-decoration: overline;
+	text-align:justify;
+	text-transform:uppercase;
+	text-indent:50px;
+	letter-spacing:-3px;
+}
+
+#line-through{
+	text-decoration: line-through;
+	text-align:left;
+	text-transform: lowercase;
+	line-height:0.8;
+	letter-spacing:20px;
+}
+
+#underline{
+	text-decoration: underline;
+	text-align:right;
+	text-transform:capitalize;
+	word-spacing:10px;
+
+}
+
+#forte{
+	font-weight: bolder;
+	text-shadow: 3px 2px #ffeb00;
+	font-size:100px;	
+}

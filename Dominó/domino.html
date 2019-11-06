@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Dominó</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="domino.js"></script>
+		<link rel="stylesheet" href="domino.css">
+		<link rel="icon" href="domino.png">
+
+	</head>
+
+	<body>
+
+		<div id="titulo">
+			<h1>Dominó</h1>
+		</div>
+
+		<div id="campo-monte">
+			<p id="monte"></p>
+		</div>
+
+		<div id="tabuleiro">
+			<p id="linha-jogo"></p>
+		</div>
+
+				<div id="area-jogadores">
+					<div id="pecas-user-A">
+						<div class="pecas">
+							<p id="peca-1A" onclick="porPeca('A',0)"></p>
+							<p id="peca-2A" onclick="porPeca('A',1)"></p>
+							<p id="peca-3A" onclick="porPeca('A',2)"></p>
+							<p id="peca-4A" onclick="porPeca('A',3)"></p>
+							<p id="peca-5A" onclick="porPeca('A',4)"></p>
+							<p id="peca-6A" onclick="porPeca('A',5)"></p>
+							<p id="peca-7A" onclick="porPeca('A',6)"></p>
+						</div>
+						<div class="botao">
+							<button onclick="irAoMonte('A')">Monte</button>
+						</div>
+					</div>
+					<div id="pecas-user-B">
+						<div class="pecas">
+							<p id="peca-1B" onclick="porPeca('B',0)"></p>
+							<p id="peca-2B" onclick="porPeca('B',1)"></p>
+							<p id="peca-3B" onclick="porPeca('B',2)"></p>
+							<p id="peca-4B" onclick="porPeca('B',3)"></p>
+							<p id="peca-5B" onclick="porPeca('B',4)"></p>
+							<p id="peca-6B" onclick="porPeca('B',5)"></p>
+							<p id="peca-7B" onclick="porPeca('B',6)"></p>
+						</div>
+						<div class="botao">
+							<button onclick="irAoMonte('B')">Monte</button>
+						</div>
+					</div>
+				</div>
+
+				<div id="campo-mensagem">
+					<p id="mensagem"></p>
+				</div>
+	</body>
+
+</html>

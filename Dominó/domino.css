@@ -1,0 +1,45 @@
+.pecas p {
+	display: inline;
+}
+
+#area-jogadores {
+	justify-content: space-around;
+    display: flex;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+#pecas-user-B {
+	float: right;
+}
+
+body {
+	margin:0px;
+}
+
+#titulo {
+    border-bottom: solid;
+    width: 100%;
+    font-size: 28px;
+}
+
+#campo-monte{
+	font-size:50px;
+	text-align:center;
+}
+
+#tabuleiro{
+	height:180px;
+	border:solid;
+	font-size:50px;
+	text-align:center;
+}
+
+.botao{
+	margin-left:40%;
+}
+
+#campo-mensagem{
+	text-align: center;
+    font-size: 40px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Eventos</title>
+	<meta charset="utf-8">
+</head>
+<body>
+<button onclick="window.alert('Olá');">Cumprimento</button>
+
+
+	<p>Máximo</p>
+	<input id="max" type="text" value="">
+	<p>Mínimo</p>
+	<input id="min" type="text" value=""><br><br>
+	<button onclick="document.getElementById('numero').innerHTML=aleatorio()">Aleatório</button>
+
+
+<p id="numero"></p>
+
+<p id="lista"></p>
+<button onclick="ordena(lista)">Ordena</button>
+<button onclick="reversa(lista)">Reversa</button>
+
+<p>O teu curso:</p>
+<input id="curso" type="text" value="">
+<button onclick="darBoasVindas()">Boas Vindas</button>
+<p id="bem-vindo"></p>
+
+
+
+<script src="evento.js"></script>
+</body>
+</html>
